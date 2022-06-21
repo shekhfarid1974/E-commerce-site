@@ -1,0 +1,28 @@
+$users  = User::all();
+dd($users);
+$users  = User::all();
+$users  = User::all();
+$user = User::where('id', 1)->first();
+$users  = User::all();
+$user = User::where('id', 1)->first();
+$user->name;
+
+User::create([
+
+  'name' => 'Prabir',
+  'email' => 'p@gmail.com',
+  'password' => 12345678
+	
+]);
+$users  = User::all();
+$user = User::where('id', 1)->first();
+$user->name;
+
+
+
+User::all();
+$user  = User::where('id', 2)->get();
+User::all();
+Category::all();
+Product::all();
+Product::all();
